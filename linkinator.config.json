@@ -1,6 +1,9 @@
 {
 	"recurse": true,
 	"directoryListing": true,
-	"markdown": true
+	"markdown": true,
+	"skip": [
+		"http://localhost:3000/",
+		"http://localhost:9090/"
+	]
 }
-
